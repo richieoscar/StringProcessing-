@@ -11,6 +11,15 @@ public class App {
         Part2 ob = new Part2();
         String gene = ob.findSimpleGeneSequence(dna, startCondon, stopCodon);
         System.out.println("Gene = " + gene);
+
+        Part3 obj2 = new Part3();
+       boolean ans = obj2.twoOccurence("y", "buzzzzzymmmy");
+       System.out.println(ans);
+       String last = obj2.lastPart("e", "orangapple");
+       System.out.println(last);
+
+       String r = obj2.reverseString("abcde");
+       System.out.println(r);
     }
 
     
